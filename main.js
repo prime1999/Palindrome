@@ -15,7 +15,7 @@ function onSubmit(e) {
     `;
   } else {
     output.innerHTML = `
-    <h6>Yes, <span>'${text}'</span> is a not palindrome word</h6>
+    <h6>No, <span>'${text}'</span> is a not palindrome word</h6>
     `;
   }
   input.value = "";
