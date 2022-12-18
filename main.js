@@ -13,6 +13,10 @@ function onSubmit(e) {
     output.innerHTML = `
     <h6>Yes, <span>'${text}'</span> is a palindrome word</h6>
     `;
+  } else {
+    output.innerHTML = `
+    <h6>Yes, <span>'${text}'</span> is a not palindrome word</h6>
+    `;
   }
   input.value = "";
 }
